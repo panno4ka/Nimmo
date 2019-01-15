@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/icons.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<title>My first site</title>
+</head>
+<body>
+<header>
+	<div class="container">
+		<div class="wrapper header-wrapper">
+			<div class="logo">
+				<a href="/">
+					<img src="img/logo.png" class="image-pc" alt="Company logo">
+					<img src="img/logo-light.png" class="image-mobile" alt="Company logo">
+				</a>
+			</div>
+			<div class="navigation">
+				<ul class="menu">
+					<li class="submenu">
+						<a href="#" class="submenu-opener">Home<i class="fa fa-angle-down"></i></a>
+						<ul class="submenu-items">
+							<li><a href="#" class="active">Home Standard</a></li>
+							<li><a href="#">Home Modern Agency</a></li>
+							<li><a href="#">Home Parallax Portfolio</a></li>
+							<li><a href="#">Home Studio</a></li>
+							<li><a href="#">Home Video</a></li>
+							<li><a href="#">Home Dark</a></li>
+						</ul>
+					</li>
+					<li><a href="">Features</a></li>
+					<li><a href="">Services</a></li>
+					<li><a href="">Portfolio</a></li>
+					<li><a href="">Pricing</a></li>
+					<li class="submenu">
+						<a href="#" class="submenu-opener">Blog<i class="fa fa-angle-down"></i></a>
+						<ul class="submenu-items">
+							<li><a href="#">Blog grid</a></li>
+							<li><a href="#">Blog standard</a></li>
+							<li><a href="#">Blog details</a></li>
+						</ul>
+					</li>
+					<li><a href="">Contacts</a></li>
+				</ul>
+				<div class="menu-toggle" onclick="menuToggle()" >
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<main>
+	<section class="top-section">
+		<div class="container">
+			<div class="title">Small Thing but<br><span>intellectual</span> idea</div>
+			<div class="description">Browse our HTML5 responsive agency templates below.</div>
+			<div class="buttons-wrapper">
+				<div class="button">Learn more</div>
+				<div class="button blue">Contact us</div>
+			</div>
+		</div>
+	</section>
+	<section class="about-section">
+		<div class="container">
+			<div class="wrapper">
+				<div class="column-50" style="padding-top: 35px; padding-bottom: 25px">
+					<div class="pre-title">About us</div>
+					<div class="title">We are modern & special for <span class="styled-span">marketing</span></div>
+					<div class="divider"></div>
+					<div class="description">Browse our HTML5 responsive agency template below. Quisque lorem tortor fringilla sed, vestibulum id, eleifend justo bibendum sapien massa ac turpis faucibus.</div>
+					<div class="charts-wrapper">
+						<div class="chart">
+							<div class="name">Html</div>
+							<div class="bar">
+								<div class="progress" style="width: 70%; background-color: #79cd1c"></div>
+							</div>
+							<div class="percent">70%</div>
+						</div>
+						<div class="chart">
+							<div class="name">Css</div>
+							<div class="bar">
+								<div class="progress" style="width: 90%; background-color: #0674fd"></div>
+							</div>
+							<div class="percent">90%</div>
+						</div>
+						<div class="chart">
+							<div class="name">Php</div>
+							<div class="bar">
+								<div class="progress" style="width: 60%; background-color: #00d0f9"></div>
+							</div>
+							<div class="percent">60%</div>
+						</div>
+					</div>
+				</div>
+				<div class="column-50">
+					<img src="img/about-section-people.png" class="responsive" alt="Some image description">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="processing-section">
+		<div class="container">
+			<div class="subtitle-big">Processing</div>
+			<div class="subtitle">processing</div>
+			<div class="title">Easy <span class="styled-span">ways</span> to<br>get ready your work</div>
+			<div class="divider centered"></div>
+			<div class="description">Browse our HTML5 responsive agency template below. Quisque<br> lorem tortor fringilla sed,vestibulum id, eleifend justo.
+			</div>
+			<div class="wrapper services">
+				<div class="column-25">
+					<div class="service-item">
+						<div class="icon" data-number="1">
+							<div class="figure"></div>
+							<i class="flaticon-speed"></i>
+						</div>
+						<div class="name">Contact us first</div>
+						<div class="info">Lorem ipsum dolor sit amet, consectetur adipis icing.</div>
+						<a href="#" class="action">Contact us</a>
+					</div>
+				</div>
+				<div class="column-25">
+					<div class="service-item even">
+						<div class="icon" data-number="2">
+							<div class="figure"></div>
+							<i class="flaticon-network"></i>
+						</div>
+						<div class="name">Consult with us</div>
+						<div class="info">Lorem ipsum dolor sit amet, consectetur adipis icing.</div>
+						<a href="#" class="action">Appointment</a>
+					</div>
+				</div>
+				<div class="column-25">
+					<div class="service-item">
+						<div class="icon" data-number="3">
+							<div class="figure"></div>
+							<i class="flaticon-objective"></i>
+						</div>
+						<div class="name">Place order</div>
+						<div class="info">Lorem ipsum dolor sit amet, consectetur adipis icing.</div>
+						<a href="#" class="action">Order now</a>
+					</div>
+				</div>
+				<div class="column-25">
+					<div class="service-item even">
+						<div class="icon" data-number="4">
+							<div class="figure"></div>
+							<i class="flaticon-banknote"></i>
+						</div>
+						<div class="name">Give us payment</div>
+						<div class="info">Lorem ipsum dolor sit amet, consectetur adipis icing.</div>
+						<a href="#" class="action">Payment</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="features-section">
+		<div class="container">
+			<div class="wrapper" style="margin-bottom: 75px;">
+				<div class="column-50">
+					<div class="image-wrapper">
+						<div class="image">
+							<img src="img/team1-1.jpg" alt="Some description">
+						</div>
+					</div>
+				</div>
+				<div class="column-50">
+					<div class="feature-info">
+						<div class="subtitle-big">Features</div>
+						<div class="subtitle">Quality of services</div>
+						<div class="title">We design<br>by maintaing <span class="styled-span">UI/UX</span></div>
+						<div class="divider"></div>
+						<div class="description">Browse our HTML5 responsive agency template below. Quisq ue lorem tortor fringilla sed,vestibulum id, eleifend justo bib endum sapien massa ac turpis faucibus.</div>
+						<div class="button blue">Hire us now</div>
+					</div>
+				</div>
+			</div>
+			<div class="wrapper">
+				<div class="column-50">
+					<div class="subtitle-big">Features</div>
+					<div class="subtitle">Quality of services</div>
+					<div class="title">We <span class="styled-span">develop</span> with<br>no coding issues</div>
+					<div class="divider"></div>
+					<div class="description">Browse our HTML5 responsive agency template below. Quisq ue lorem tortor fringilla sed,vestibulum id, eleifend justo bib endum sapien massa ac turpis faucibus.</div>
+					<div class="button blue">View portfolio</div>
+				</div>
+				<div class="column-50">
+					<div class="image-wrapper light">
+						<div class="image">
+							<img src="img/team2-1.jpg" alt="Some description">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="blog-section">
+		<div class="container">
+			<div class="subtitle">Our blog</div>
+			<div class="title">Learn more from<br>our <span class="styled-span">blog</span></div>
+			<div class="divider centered"></div>
+			<div class="description">Browse our HTML5 responsive agency template below. Quisque<br>lorem tortor fringilla sed, vestibulum id.
+			</div>
+			<div class="wrapper">
+				<div class="column-33" style="margin-bottom: 35px;">
+					<div class="blog-card">
+						<a href="#" class="cover"> <img src="img/update-blog1-600x316.jpg" alt="Some description"> </a>
+						<div class="info">
+							<div class="panel">
+								<div class="date"><i class="fa fa-calendar"></i>October 18, 2018</div>
+								<div class="author"><i class="fa fa-user"></i>By admin</div>
+							</div>
+							<div class="divider-striped">
+								<div class="divider"></div>
+							</div>
+							<a href="#" class="headline">Main reasons to explan fast business builder</a>
+						</div>
+						<div class="buttons-wrapper centered">
+							<a href="#" class="button blue">View now</a>
+						</div>
+					</div>
+				</div>
+				<div class="column-33" style="margin-bottom: 35px;">
+					<div class="blog-card">
+						<a href="#" class="cover"> <img src="img/update-blog2-600x316.jpg" alt="Some description">
+							<div class="icon-button">
+								<i class="fa fa-play"></i>
+							</div>
+						</a>
+						<div class="info">
+							<div class="panel">
+								<div class="date"><i class="fa fa-calendar"></i>August 18, 2018</div>
+								<div class="author"><i class="fa fa-user"></i>By admin</div>
+							</div>
+							<div class="divider-striped">
+								<div class="divider"></div>
+							</div>
+							<a href="#" class="headline">Blackpool polices hunt for David Schwimmer</a>
+						</div>
+						<div class="buttons-wrapper centered">
+							<a href="#" class="button blue">View now</a>
+						</div>
+					</div>
+				</div>
+				<div class="column-33" style="margin-bottom: 35px;">
+					<div class="blog-card">
+						<a href="#" class="cover"> <img src="img/update-blog3-600x316.jpg" alt="Some description"> </a>
+						<div class="info">
+							<div class="panel">
+								<div class="date"><i class="fa fa-calendar"></i>July 18, 2018</div>
+								<div class="author"><i class="fa fa-user"></i>By admin</div>
+							</div>
+							<div class="divider-striped">
+								<div class="divider"></div>
+							</div>
+							<a href="#" class="headline">Anger after ‘hardcore huntress’ shoots goat</a>
+						</div>
+						<div class="buttons-wrapper centered">
+							<a href="#" class="button blue">View now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+<footer>
+	<div class="container">
+		<div class="wrapper footer-wrapper">
+			<div class="column-auto">
+				<div class="logo">
+					<a href="/"> <img src="img/logo-light.png" alt="Company logo"> </a>
+				</div>
+				<div class="company-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>
+				<ul class="company-contacts">
+					<li><i class="fa fa-phone"></i> +123 (4567) 890</li>
+					<li><i class="fa fa-envelope"></i> info@nimmo.com</li>
+					<li><i class="fa fa-home"></i> 380 St Kilda Road, Melbourne VIC 3004, Australia</li>
+				</ul>
+			</div>
+			<div class="column-auto">
+				<div class="widget-headline">Links</div>
+				<ul class="widget-menu hoverable">
+					<li><a href="#"><i class="fa fa-angle-right"></i>Home</a></li>
+					<li><a href="#"><i class="fa fa-angle-right"></i>Services</a></li>
+					<li><a href="#"><i class="fa fa-angle-right"></i>About Us</a></li>
+					<li><a href="#"><i class="fa fa-angle-right"></i>Testimonials</a></li>
+					<li><a href="#"><i class="fa fa-angle-right"></i>News</a></li>
+					<li><a href="#"><i class="fa fa-angle-right"></i>Contact</a></li>
+				</ul>
+			</div>
+			<div class="column-auto">
+				<div class="widget-headline">Support</div>
+				<ul class="widget-menu">
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Submit a Ticket</a></li>
+					<li><a href="#">Visit Knowledge Base</a></li>
+					<li><a href="#">Support System</a></li>
+					<li><a href="#">Refund Policy</a></li>
+					<li><a href="#">Professional Services</a></li>
+				</ul>
+			</div>
+			<div class="column-auto">
+				<div class="widget-headline">Gallery</div>
+				<div class="widget-gallery">
+					<div class="wrapper">
+						<div class="column-auto">
+							<div class="preview">
+								<img src="img/gallery1.jpg" alt="Gallery image">
+							</div>
+						</div>
+						<div class="column-auto">
+							<div class="preview">
+								<img src="img/gallery2.jpg" alt="Gallery image">
+							</div>
+						</div>
+						<div class="column-auto">
+							<div class="preview">
+								<img src="img/gallery3.jpg" alt="Gallery image">
+							</div>
+						</div>
+					</div>
+					<div class="wrapper">
+						<div class="column-auto">
+							<div class="preview">
+								<img src="img/gallery4.jpg" alt="Gallery image">
+							</div>
+						</div>
+						<div class="column-auto">
+							<div class="preview">
+								<img src="img/gallery5.jpg" alt="Gallery image">
+							</div>
+						</div>
+						<div class="column-auto">
+							<div class="preview">
+								<img src="img/gallery6.jpg" alt="Gallery image">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="bottom-footer">
+	<div class="container">
+		<div class="wrapper">
+			<div class="column-50">
+				<div class="bottom-copyright"> 2018 © All rights reserved by <a href="#">Julia</a>
+				</div>
+			</div>
+			<div class="column-50">
+				<div class="bottom-social">
+					<label>Follow us:</label> <a href="#"><i class="fa fa-facebook-square"></i></a>
+					<a href="#"><i class="fa fa-twitter-square"></i></a>
+					<a href="#"><i class="fa fa-linkedin-square"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a> <a href="#"><i class="fa fa-google-plus-square"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="hidden-menu" class="hidden-menu">
+	<div class="menu-toggle close" onclick="menuToggle()"></div>
+	<div class="menu-wrapper">
+		<a href="/" class="logo">
+			<img src="img/logo-light.png" class="image-mobile" alt="Company logo">
+		</a>
+		<ul class="items">
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#">Features</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Pricing</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+		<div class="social">
+			<a href="#"><i class="fa fa-twitter-square"></i></a>
+			<a href="#"><i class="fa fa-linkedin-square"></i></a>
+			<a href="#"><i class="fa fa-instagram"></i></a> <a href="#"><i class="fa fa-google-plus-square"></i></a>
+		</div>
+	</div>
+</div>
+<script>
+	function menuToggle(){
+	document.getElementById('hidden-menu').classList.toggle('active');
+	}
+</script>
+</body>
+</html>
