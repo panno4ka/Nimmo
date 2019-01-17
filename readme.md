@@ -1,4 +1,5 @@
 ## Главная страница шаблона Nimmo
+* Adative Web Design 
 
 ### Background
 
@@ -19,3 +20,9 @@
 ### Recommended Design
 
 - [Nimmo Template](http://demos.casethemes.net/nimmo/) - Nimmo Template
+
+## Hover Effects 
+1. on submenu-items (navigation)
+2.on buttons (button, blue)
+3. on categories (servise-items)
+4.on blog-cards 
